@@ -37,7 +37,7 @@ Install
 git clone https://github.com/5G-Cash/5G.git
 # Depending on your setup you may need to modify permissions (OPTIONAL)
 chmod -R +x 5G/  
-# Change directories to the newly created buck directory
+# Change directories to the newly created 5G directory
 cd 5G
 # Build the 5G application
 ./autogen.sh
@@ -61,7 +61,7 @@ cd ..
 # The node will download blocks. You are now running a 5G node and wallet!
 
 # Optional
-# If you want to run 5G in the background, start buck with the -daemon flag:
+# If you want to run 5G in the background, start 5G with the -daemon flag:
 ~/5G/src/5gd -daemon
 # To stop 5G safely if it is running in daemon, close the application with 5g-cli stop
 5g-cli stop
