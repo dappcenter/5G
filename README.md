@@ -1,6 +1,7 @@
 ![FIVEG](https://i.imgur.com/28UX83V.png)
 
 Project site:
+Facebook: https://www.facebook.com/5Gcash/
 
 Block Explorer: https://5gexplorer.bitpool.ro/
 
@@ -82,10 +83,15 @@ mkdir .5G
 cd .5G
 ### Create a new file named 5g.conf
 nano 5g.conf
+
 rpcuser=
+
 rpcpassword=
+
 addnode=93.114.72.163
+
 addnode=122.175.63.83
+
 addnode=204.195.150.219
 
 ### To save this new file, hit CTRL-X, then Y to save new file.
