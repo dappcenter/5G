@@ -84,8 +84,9 @@ cd .5G
 nano 5g.conf
 rpcuser=
 rpcpassword=
-addnode=93.114.73.8
 addnode=93.114.72.163
+addnode=122.175.63.83
+addnode=204.195.150.219
 
 ### To save this new file, hit CTRL-X, then Y to save new file.
 ### Change back to your home folder
