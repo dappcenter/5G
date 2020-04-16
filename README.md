@@ -34,6 +34,10 @@ Windows CLI binaries - (COMPLETED)
 
 Windows GUI wallet - (COMPLETED)
 
+Explorer - (COMPLETED0
+
+
+
 ### Ports:
 
 RPC port: 8333
