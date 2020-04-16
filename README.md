@@ -1,4 +1,4 @@
-![FIVEG](https://cloud.bitpool.ro/s/d7XzACNWwrr73Ky)
+![FIVEG](https://imgur.com/kbG30Ow)
 
 Project site:
 
