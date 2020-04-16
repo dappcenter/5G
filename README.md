@@ -40,7 +40,7 @@ Explorer - (COMPLETED)
 
 ### Ports:
 
-RPC port: 8333
+RPC port: 8332
 
 ### Linux Install: First, install prerequisites listed above.
 sudo apt-get install build-essential libtool autotools-dev automake pkg-config libssl-dev libevent-dev bsdmainutils python3 libboost-system-dev libboost-filesystem-dev libboost-chrono-dev libboost-test-dev libboost-thread-dev
@@ -82,6 +82,10 @@ mkdir .5G
 cd .5G
 ### Create a new file named 5g.conf
 nano 5g.conf
+rpcuser=
+rpcpassword=
+addnode=93.114.73.8
+addnode=93.114.72.163
 
 ### To save this new file, hit CTRL-X, then Y to save new file.
 ### Change back to your home folder
