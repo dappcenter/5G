@@ -1,4 +1,4 @@
-5G
+# 5G
 
 Project site:
 
@@ -16,9 +16,7 @@ Target block creation rate:
 
 Current block size:
 
-Technology:
-
-5G Principles:
+### 5G Principles:
 
 All contributors are welcome
 
@@ -26,7 +24,7 @@ As a miner you should not use the biggest pools to follow main principles.
 
 Easy to mine: x16r algorithm.
 
-###Roadmap
+### Roadmap
 
 Linux build - (COMPLETED)
 
@@ -40,7 +38,7 @@ Windows GUI wallet - (COMPLETED)
 
 Linux ARM CLI binaries - (COMPLETED)
 
-###Ports:
+### Ports:
 
 RPC port: 8332
 
