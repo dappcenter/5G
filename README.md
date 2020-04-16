@@ -48,16 +48,16 @@ P2P port: 8333
 
 Linux Install
 
-# First, install prerequisites listed above.
+### First, install prerequisites listed above.
 sudo apt-get install build-essential libtool autotools-dev automake pkg-config libssl-dev libevent-dev bsdmainutils python3 libboost-system-dev libboost-filesystem-dev libboost-chrono-dev libboost-test-dev libboost-thread-dev
 
-# Download the github repository
+### Download the github repository
 git clone https://github.com/5G-Cash/5G.git
-# Depending on your setup you may need to modify permissions (OPTIONAL)
+### Depending on your setup you may need to modify permissions (OPTIONAL)
 chmod -R +x 5G/  
-# Change directories to the newly created 5G directory
+### Change directories to the newly created 5G directory
 cd 5G
-# Build the 5G application
+### Build the 5G application
 ./autogen.sh
 
 ./configure
@@ -66,26 +66,26 @@ make
 
 make install # optional
 
-# Change to one folder lower (your user home folder)
+### Change to one folder lower (your user home folder)
 cd ..
-# Create a folder named .5G
+### Create a folder named .5G
 mkdir .5G
-# Change to the .5G directory
+### Change to the .5G directory
 cd .5G
-# Create a new file named 5g.conf
+### Create a new file named 5g.conf
 nano 5g.conf
 
-# To save this new file, hit CTRL-X, then Y to save new file.
-# Change back to your home folder
+### To save this new file, hit CTRL-X, then Y to save new file.
+### Change back to your home folder
 cd ..
-# Start 5G
+### Start 5G
 ~/5G/src/5gd
-# The node will download blocks. You are now running a 5G node and wallet!
+### The node will download blocks. You are now running a 5G node and wallet!
 
-# Optional
-# If you want to run 5G in the background, start 5G with the -daemon flag:
+### Optional
+### If you want to run 5G in the background, start 5G with the -daemon flag:
 ~/5G/src/5gd -daemon
-# To stop 5G safely if it is running in daemon, close the application with 5g-cli stop
+### To stop 5G safely if it is running in daemon, close the application with 5g-cli stop
 5g-cli stop
 
 5G integration/staging tree
