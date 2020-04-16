@@ -77,10 +77,11 @@ cd ..
 ### The node will download blocks. You are now running a 5G node and wallet!
 
 ### Optional
-### If you want to run 5G in the background, start 5G with the -daemon flag:
+#### If you want to run 5G in the background, start 5G with the -daemon flag:
 ~/5G/src/5gd -daemon
-### To stop 5G safely if it is running in daemon, close the application with 5g-cli stop
+#### To stop 5G safely if it is running in daemon, close the application with 5g-cli stop
 5g-cli stop
+#### If you want to mine 5G in the background, start 5G with the -setgenerate true flag:
 
 5G integration/staging tree
 ===========================
