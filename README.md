@@ -43,7 +43,7 @@ Explorer - (COMPLETED)
 RPC port: 8333
 
 ### Linux Install: First, install prerequisites listed above.
-sudo apt-get install build-essential libtool autotools-dev automake pkg-config libssl-dev libevent-dev bsdmainutils python3 libboost-system-dev libboost-filesystem-dev libboost-chrono-dev libboost-test-dev libboost-thread-dev
+sudo apt-get install build-essential libtool autotools-dev automake pkg-config libssl-dev libevent-dev bsdmainutils python3 libboost-system-dev libboost-filesystem-dev libboost-chrono-dev libboost-test-dev libboost-thread-dev libdb++-dev
 
 ### Download the github repository
 git clone https://github.com/5G-Cash/5G.git
