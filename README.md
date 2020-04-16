@@ -2,7 +2,7 @@
 
 Project site:
 
-Block Explorer:
+Block Explorer: https://5gexplorer.bitpool.ro/
 
 Type: Cryptocurrency
 
@@ -11,8 +11,6 @@ Ticker: FIVEG
 Algo: x16r
 
 Max supply: 21.000.000
-
-Target block creation rate:
 
 Current block size:
 
