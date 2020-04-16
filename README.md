@@ -28,7 +28,7 @@ Linux build - (COMPLETED)
 
 Linux CLI binaries - (COMPLETED)
 
-Windows build - (COMPLETED)
+Windows build - (COMPLETED) 
 
 Windows CLI binaries - (COMPLETED)
 
@@ -82,6 +82,7 @@ cd ..
 #### To stop 5G safely if it is running in daemon, close the application with 5g-cli stop
 5g-cli stop
 #### If you want to mine 5G in the background, start 5G with the -setgenerate true flag:
+5g-cli setgenerate true
 
 5G integration/staging tree
 ===========================
