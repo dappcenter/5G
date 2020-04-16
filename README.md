@@ -1,4 +1,4 @@
-# 5G
+![FIVEG](https://cloud.bitpool.ro/s/d7XzACNWwrr73Ky)
 
 Project site:
 
@@ -10,7 +10,7 @@ Ticker: FIVEG
 
 Algo: x16r
 
-Max supply:
+Max supply: 21.000.000
 
 Target block creation rate:
 
@@ -36,17 +36,11 @@ Windows CLI binaries - (COMPLETED)
 
 Windows GUI wallet - (COMPLETED)
 
-Linux ARM CLI binaries - (COMPLETED)
-
 ### Ports:
 
-RPC port: 8332
+RPC port: 8333
 
-P2P port: 8333
-
-Linux Install
-
-### First, install prerequisites listed above.
+### Linux Install: First, install prerequisites listed above.
 sudo apt-get install build-essential libtool autotools-dev automake pkg-config libssl-dev libevent-dev bsdmainutils python3 libboost-system-dev libboost-filesystem-dev libboost-chrono-dev libboost-test-dev libboost-thread-dev
 
 ### Download the github repository
