@@ -34,7 +34,7 @@ Windows CLI binaries - (COMPLETED)
 
 Windows GUI wallet - (COMPLETED)
 
-Explorer - (COMPLETED0
+Explorer - (COMPLETED)
 
 
 
