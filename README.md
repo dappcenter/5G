@@ -1,6 +1,73 @@
+5G
+
+Project site:
+
+Block Explorer:
+
+Type: Cryptocurrency
+Ticker: FIVEG
+Algo: x16r
+Max supply: 
+Target block creation rate:
+Current block size:
+Technology:
+5G Principles:
+All contributors are welcome
+As a miner you should not use the biggest pools to follow main principles.
+
+Easy to mine: x16r algorithm.
+Roadmap
+Linux build - (COMPLETED)
+Linux CLI binaries - (COMPLETED)
+Windows build - (COMPLETED)
+Windows CLI binaries - (COMPLETED)
+Windows GUI wallet - (COMPLETED)
+Linux ARM CLI binaries - (COMPLETED)
+Ports:
+RPC port: 8332
+P2P port: 8333
+Install
+Linux
+Get dependencies
+sudo apt-get install build-essential libtool autotools-dev automake pkg-config libssl-dev libevent-dev bsdmainutils python3 libboost-system-dev libboost-filesystem-dev libboost-chrono-dev libboost-test-dev libboost-thread-dev
+Install
+
+# First, install prerequisites listed above.
+# Download the github repository
+git clone https://github.com/5G-Cash/5G.git
+# Depending on your setup you may need to modify permissions (OPTIONAL)
+chmod -R +x 5G/  
+# Change directories to the newly created buck directory
+cd 5G
+# Build the 5G application
+./autogen.sh
+./configure
+make
+make install # optional
+# Change to one folder lower (your user home folder)
+cd ..
+# Create a folder named .5G
+mkdir .5G
+# Change to the .5G directory
+cd .5G
+# Create a new file named 5g.conf
+nano 5g.conf
+
+# To save this new file, hit CTRL-X, then Y to save new file.
+# Change back to your home folder
+cd ..
+# Start 5G
+~/5G/src/5gd
+# The node will download blocks. You are now running a 5G node and wallet!
+
+# Optional
+# If you want to run 5G in the background, start buck with the -daemon flag:
+~/5G/src/5gd -daemon
+# To stop 5G safely if it is running in daemon, close the application with 5g-cli stop
+5g-cli stop
+
 5G integration/staging tree
 ===========================
-
 
 What is 5G?
 ----------------
