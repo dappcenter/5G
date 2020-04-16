@@ -5,18 +5,29 @@ Project site:
 Block Explorer:
 
 Type: Cryptocurrency
+
 Ticker: FIVEG
+
 Algo: x16r
-Max supply: 
+
+Max supply:
+
 Target block creation rate:
+
 Current block size:
+
 Technology:
+
 5G Principles:
+
 All contributors are welcome
+
 As a miner you should not use the biggest pools to follow main principles.
 
 Easy to mine: x16r algorithm.
+
 Roadmap
+
 Linux build - (COMPLETED)
 Linux CLI binaries - (COMPLETED)
 Windows build - (COMPLETED)
