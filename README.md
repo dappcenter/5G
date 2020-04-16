@@ -1,4 +1,4 @@
-![FIVEG](https://i.imgur.com/kbG30Ow.png)
+![FIVEG](https://i.imgur.com/28UX83V.png)
 
 Project site:
 
