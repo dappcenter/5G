@@ -12,7 +12,7 @@ Ticker: FIVEG
 
 Algo: x16r
 
-Max supply: 21.000.000
+Max supply: 55.000.000
 
 Current block size:
 
