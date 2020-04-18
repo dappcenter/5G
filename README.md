@@ -42,7 +42,7 @@ Explorer - (COMPLETED)
 
 ### Ports:
 
-RPC port: 8332
+RPC port: 8554
 
 ### Linux Install: First, install prerequisites listed above.
 sudo apt-get install build-essential libtool autotools-dev automake pkg-config libssl-dev libevent-dev bsdmainutils python3 libboost-system-dev libboost-filesystem-dev libboost-chrono-dev libboost-test-dev libboost-thread-dev
